@@ -16,33 +16,48 @@
 <h1>Privacy Policy — MendThread</h1>
 <p class="updated">Last updated: 2026-09-17</p>
 
-<p>This Privacy Policy describes how MendThread ("we," "us," or "the Service") collects, uses, and shares information when a landlord's tenant contacts a property's maintenance-request line by text message or email, and when a landlord or their designated agent uses the web dashboard.</p>
+<p>This Privacy Policy describes how MendThread ("we," "us," or "the Service") collects, uses, and shares information when a landlord's tenant contacts a maintenance-request line by text message or email, when a landlord or their designated agent uses the web dashboard, and when a landlord or their designated agent provides information about tenants or helpers.</p>
 
 <h2>Information we collect</h2>
+
+<h3>From tenants</h3>
 <ul>
   <li>Your phone number and/or email address, when you text or email a maintenance-request line.</li>
   <li>The content of your messages, including any photos or images you attach to a request.</li>
+  <li>Details you give us about the issue and your home that help your landlord act on it — for example where the problem is, how long it has been happening, what it is affecting, and access information such as pets or when someone is home for a visit.</li>
   <li>Timestamps and status of your maintenance request.</li>
+</ul>
+
+<h3>From landlords and designated agents</h3>
+<ul>
+  <li>Account information: name and email address, and optionally a phone number and mailing address.</li>
+  <li>A phone number for maintenance alerts, collected only if the landlord actively opts in to SMS alerts.</li>
+  <li>Tenant roster information a landlord or designated agent enters about their tenants: names, phone numbers, email addresses, unit numbers, and optional notes. If you are a tenant, this information was provided by your landlord or their designated agent, not collected from you directly.</li>
+  <li>Contact details a landlord enters for a designated agent (a co-owner or helper): name and email address, and optionally a phone number and address.</li>
 </ul>
 
 <h2>How we use this information</h2>
 <p>We use this information to log your maintenance request, ask clarifying questions, classify its urgency and category, notify your landlord or their designated agent, and send you status updates about your request. Message content and any attached photos are processed by Anthropic's Claude AI to help triage and classify the request, and — if a landlord views your request in a different display language — to translate the conversation for their review.</p>
+<p>If you are on your landlord's tenant roster, we use it to recognize your messages and attach them to the correct property and unit, so you are not asked for details your landlord has already provided. A message from someone not on a roster is still logged, and is held for the landlord to assign to a property.</p>
+<p>We use a landlord's contact details to notify them of new maintenance requests and of requests a tenant escalates — by text message if the landlord has opted in to SMS alerts, and otherwise by email to their account address.</p>
 
 <h2>How we share information</h2>
 <p>We do not sell your phone number, email address, or message content to third parties, and we do not use it for marketing. We share information only with the service providers needed to operate the Service:</p>
 <ul>
   <li><strong>Twilio</strong> — delivers and receives SMS/MMS messages.</li>
+  <li><strong>Telnyx</strong> — delivers and receives SMS/MMS messages.</li>
   <li><strong>SendGrid (Twilio)</strong> — delivers and receives email.</li>
-  <li><strong>Anthropic</strong> — processes message content and photos for AI-based triage and classification.</li>
+  <li><strong>Anthropic</strong> — processes message content and photos for AI-based triage, classification, and translation.</li>
   <li><strong>Cloudflare</strong> — stores photos you attach to a request.</li>
-  <li>Your landlord or their designated agent — who can see the ticket log for their own property.</li>
+  <li>Your landlord, and any designated agent they have assigned to your property — who can see the maintenance requests for that property.</li>
 </ul>
 
 <h2>Message frequency and data rates</h2>
-<p>Message frequency varies based on your maintenance request's lifecycle — typically your initial report, a small number of AI clarifying questions, and status updates through resolution. <strong>Message and data rates may apply</strong> from your mobile carrier.</p>
+<p>For tenants, message frequency varies based on your maintenance request's lifecycle — typically your initial report, a small number of AI clarifying questions, and status updates through resolution. For landlords who opt in to SMS alerts, frequency depends on how many requests their tenants send: an alert when a new request is logged, and another if a tenant escalates one. <strong>Message and data rates may apply</strong> from your mobile carrier.</p>
 
 <h2>Opting out</h2>
-<p>Reply <strong>STOP</strong> at any time to a text from a maintenance-request line to stop receiving messages, or <strong>HELP</strong> for assistance. You can also contact your landlord directly to request that your information be removed.</p>
+<p>Reply <strong>STOP</strong> at any time to a text from a maintenance-request line to stop receiving messages, or <strong>HELP</strong> for assistance. You can also contact your landlord directly to request that your information be removed, including from their tenant roster.</p>
+<p>SMS alerts are optional and never a condition of using the Service. Landlords can turn them off at any time in Account Management, after which alerts are sent to the landlord's account email instead. Replying <strong>STOP</strong> to an alert also stops SMS alerts.</p>
 
 <h2>Data retention</h2>
 <p>We retain your maintenance-request information for as long as your landlord's account remains active with the Service, to maintain an accurate maintenance history for the property.</p>
